@@ -68,7 +68,7 @@ def get_match_info(championships):
 
 def create_html_file(matches_details, date):
     """
-    Create an HTML file to display match details in a table.
+    Create an HTML file to display match details in a table
     """
     desktop_path = os.path.join(os.path.expanduser("~"), "Desktop", f"match_details_{date.replace('/', '_')}.html")
     
